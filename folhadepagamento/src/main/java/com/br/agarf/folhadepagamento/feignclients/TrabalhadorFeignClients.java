@@ -11,7 +11,7 @@ import com.br.agarf.folhadepagamento.model.Trabalhador;
 
 
 @Component
-@FeignClient (name = "rh-trabalhador", url = "localhost:8001", path = "/trabalhador")
+@FeignClient (name = "rh-trabalhador", path = "/trabalhador")
 public interface TrabalhadorFeignClients {
 
 	@GetMapping("/{id}")
