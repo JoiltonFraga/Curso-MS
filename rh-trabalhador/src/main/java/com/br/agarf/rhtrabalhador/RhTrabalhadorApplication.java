@@ -1,4 +1,4 @@
-package br.com.agarf.rhtrabalhador;
+package com.br.agarf.rhtrabalhador;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
